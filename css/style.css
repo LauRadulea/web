@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url(fonts/Roboto-Black.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-BlackItalic';
+    src: url(fonts/Roboto-BlackItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(fonts/Roboto-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-BoldItalic';
+    src: url(fonts/Roboto-BoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Italic';
+    src: url(fonts/Roboto-Italic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url(fonts/Roboto-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-LightItalic';
+    src: url(fonts/Roboto-LightItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url(fonts/Roboto-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url(fonts/Roboto-MediumItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(fonts/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url(fonts/Roboto-Thin.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-ThinItalic';
+    src: url(fonts/Roboto-ThinItalic.ttf) format('truetype');
+}
+
+body {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-family: 'Roboto-Regular', sans-serif;
+}
+
+.hero, .footer{
+    background-color: #1F2937;
+    padding: 0% 15%;
+}
+
+.topBar {
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo, .nav {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: medium;  
+}
+
+.heroContent {
+    display: flex;
+    padding-bottom: 10%;
+}
+
+.text, .placeholder {
+    width: 50%;
+}
+
+.text {
+    padding-right: 5%;
+}
+
+.main, .secondary {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-block-start: unset;
+}
+
+.secondary {
+    font-weight: normal;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.placeholder {
+    background-color: #2a3749;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signIn {
+    color:#E5E7EB;
+    background-color: #3882F3;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 4%;
+    width: 100px;
+    padding: 5px 0;
+    text-align: center;
+}
+
+
+.info {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.info h1 {
+    color:#1F2937;
+    font-weight: bolder;
+    font-size: 36px;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.eachImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imageBox {
+    height: 100px;
+    width: 100px;
+    border: 5px solid #3882F3;
+    border-radius: 5%;
+    align-self: center;
+}
+
+.subtext {
+    font-size: 14px;
+    color: #495875;
+    text-align: center;
+}
+
+
+.quote {
+    background-color: #E5E7EB;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 5% 15%;
+}
+
+.quote blockquote,
+.quote figcaption {
+    text-align: left;
+    font-family: 'Roboto-ThinItalic';
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote figcaption {
+    text-align: right;
+    font-family: 'Roboto-Bold';
+}
+
+
+.action {
+    background-color: #3882F3;
+    margin: 5% 10%;
+    border-radius: 2%;
+    padding: 5% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.actionCall {
+    color: #E5E7EB;
+}
+
+.actionCall h3 {
+    margin: 0%;
+}
+
+.actionCall p {
+    margin: 0%;
+}
+
+.actionButton  {
+    color:#E5E7EB;
+    background-color: #3882F3;
+    cursor: pointer;
+    border: 1px solid #E5E7EB;
+    border-radius: 4%;
+    width: 100px;
+    padding: 5px 0;
+    text-align: center; 
+}
+
+
+.footer {
+    color: #E5E7EB;
+    text-align: center;
+    padding: 3%;
+}
